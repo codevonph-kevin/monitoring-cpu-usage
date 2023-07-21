@@ -27,6 +27,22 @@ AuthPass=your_gmail_password_for_ssmtp
 UseSTARTTLS=YES
 ```
 
+**Note**: Please replace `your_gmail@gmail.com` to your email and `your_gmail_password_for_ssmtp` to your gmail password for ssmtp
+
+You can set gmail password for ssmtp in google account settings
+
+![image-20230721114058534](README.assets/image-20230721114058534.png)
+
+![image-20230721114136753](README.assets/image-20230721114136753.png)
+
+Then click `Get started` button
+
+![image-20230721114317839](README.assets/image-20230721114317839.png)
+
+When you add ssmtp to here, you will get the password for ssmtp
+
+
+
 Test it with below simple echo cmd 
 
 ```
@@ -45,6 +61,8 @@ vi CpuAlert.sh
 ```
 
 Copy paste the CpuAlert.sh files from this repo and replace your desired destination mail ID and Percentage threshold.
+
+**Note**: Please replace `receiver_email@ex.com` to the email you will receive email notifications In the 6 line of CpuAlert.sh
 
 ## Execute
 
